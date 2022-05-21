@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Dang3rZone/image-effects#readme",
   "description": "",
   "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.6.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
