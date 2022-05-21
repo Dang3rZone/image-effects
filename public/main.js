@@ -7,8 +7,7 @@ function init() {
       /^data:image\/(png|jpg|jpeg);base64,/,
       ''
     );
-    console.log(base64);
-    console.log(input.files[0]);
+    rustApp.grayscale(base64);
   };
 
   input.addEventListener('change', () => {
